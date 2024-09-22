@@ -60,7 +60,6 @@ async function main() {
   const numberOfEmployees = parseInt(data[0].split(":")[1].trim(), 10);
   const goodies: Goodie[] = data.slice(2).map((line) => {
     const [name, priceStr] = line.split(":");
-    console.log("name", name, "priceStr", priceStr);
     return { name: name.trim(), price: parseInt(priceStr.trim(), 10) };
   });
 
