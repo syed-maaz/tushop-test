@@ -170,8 +170,8 @@ npm test
 ```
 
 You can also run tests for specific problems:
-- Problem 1: `npm run test:job_selection`
-- Problem 2: `npm run test:gift_distribution`
+- Problem 1: `npm run test`
+- Problem 2: `npm run test`
 
 ## Notes
 
