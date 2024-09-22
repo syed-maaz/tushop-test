@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "job_selection": "tsc && node dist/job_selection/index.js",
-    "gift-distribution": "tsc && node build.js && node dist/gift_distribution/index.js",
+    "gift_distribution": "node build.js && node dist/gift_distribution/index.js",
     "test": "jest"
   },
   "keywords": [],

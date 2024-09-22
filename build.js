@@ -13,12 +13,13 @@ async function build() {
         console.log('TypeScript compiled successfully');
         
         // make data directory if it doesn't exist
-        if (!fs.existsSync('dist/gift-distribution/data')) {
-            fs.mkdirSync('dist/gift-distribution/data');
+        if (!fs.existsSync('dist/gift_distribution/data')) {
+            console.log('file not found')
+            fs.mkdirSync('dist/gift_distribution/data');
         }
 
         // Copy the data folder to the dist directory
-        fs.copySync('gift-distribution/data', 'dist/gift-distribution/data', { overwrite: true }, (copyErr) => {
+        fs.copySync('gift_distribution/data', 'dist/gift_distribution/data', { overwrite: true }, (copyErr) => {
             if (copyErr) {
                 console.error(`Error copying data folder: ${copyErr}`);
             } else {
