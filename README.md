@@ -14,14 +14,14 @@ Both problems are implemented in **TypeScript** and can be run via **npm** comma
 
 ```
 .
-├── problem1
-│   ├── problem1.ts
-│   ├── problem1.test.ts
+├── job_selection
+│   ├── job_selection.ts
+│   ├── job_selection.test.ts
 │   ├── data
 │   └── sample_input.txt
-├── problem2
-│   ├── problem2.ts
-│   ├── problem2.test.ts
+├── gift_distribution
+│   ├── gift_distribution.ts
+│   ├── gift_distribution.test.ts
 │   ├── data
 │   ├── sample_input.txt
 │   └── sample_output.txt
@@ -45,7 +45,7 @@ A factory has a list of jobs where each job has a start time, end time, and prof
 
 2. **Run Problem 1**:
    ```bash
-   npm run problem1
+   npm run job_selection
    ```
 
 3. **Sample Input** (to be entered):
@@ -74,7 +74,7 @@ A factory has a list of jobs where each job has a start time, end time, and prof
 To run the test cases for Problem 1, use:
 
 ```bash
-npm run test:problem1
+npm run test:job_selection
 ```
 
 Test cases include:
@@ -89,7 +89,7 @@ HR needs to distribute goodies among `M` employees such that the difference betw
 
 ### How to Run Problem 2
 
-1. **Place Input File**: Ensure that `sample_input.txt` is in the `data/` folder under `problem2`.
+1. **Place Input File**: Ensure that `sample_input.txt` is in the `data/` folder under `gift_distribution`.
 2. **Build the Project**:
    ```bash
    npm run build
@@ -97,7 +97,7 @@ HR needs to distribute goodies among `M` employees such that the difference betw
 
 3. **Run Problem 2**:
    ```bash
-   npm run problem2
+   npm run gift_distribution
    ```
 
 4. **Input File Format (`data/sample_input.txt`)**:
@@ -133,7 +133,7 @@ HR needs to distribute goodies among `M` employees such that the difference betw
 To run the test cases for Problem 2, use:
 
 ```bash
-npm run test:problem2
+npm run test:gift_distribution
 ```
 
 Test cases include:
@@ -170,8 +170,8 @@ npm test
 ```
 
 You can also run tests for specific problems:
-- Problem 1: `npm run test:problem1`
-- Problem 2: `npm run test:problem2`
+- Problem 1: `npm run test:job_selection`
+- Problem 2: `npm run test:gift_distribution`
 
 ## Notes
 
